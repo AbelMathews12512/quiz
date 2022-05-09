@@ -1,0 +1,517 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Card</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+body{
+    background-color: rgba(216, 216, 227, 0.53);
+ }
+
+.container1 {
+  padding: 4px 16px;
+}
+
+.card1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 8px 16px 0 rgba(0.2,0,0,0.2);
+  transition: 0.3s;
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  top: 80px;
+}
+
+.button {
+  width: 315px;
+  height: 52px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}  
+  
+	
+}
+  </style>
+  <script type="text/javascript">
+      var result = 0;
+     
+     function check(){
+         result = 0
+         if(document.getElementById('correct1').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct2').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct3').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct4').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct5').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct6').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct7').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct8').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct9').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+         
+         if(document.getElementById('correct10').checked == true) {   
+         result = result + 1;
+         document.getElementById("r").value = result;
+         }
+     }
+</script>
+</head>
+<body >
+ 
+<div class="container" id="container" >
+<div class="container1"></div>
+<center><h4>Onam Quiz In Malayalam</h4></center>
+<div class="container1"></div>
+   <div class="card" style="background-color:white">
+   <h6>1. ഓണപ്പൂവ് എന്ന വിശഷമുള്ള പൂവ് ?<h6>
+   <img src="{% static 'images/1.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios1" id="incorrect" value="0" autocomplete="on">
+  <label class="form-check-label" for="flexRadioDefault1">
+    മന്ദാര൦
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios1" id="correct1" value="0" autocomplete="on">
+  <label class="form-check-label" for="flexRadioDefault2">
+    കാശിത്തുമ്പ
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios1" id="incorrect" value="0" autocomplete="on">
+  <label class="form-check-label" for="flexRadioDefault1">
+    അരളി
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios1" id="incorrect" value="0" autocomplete="on">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    ശ൦ഖുപുഷ്പ൦
+  </label>
+</div>
+</div>
+</div>
+<!-- question 2 -->
+<div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+  <h6>2. ഓണം കേരളത്തിന്റെ ദേശീയ ഉത്സവം ആക്കിയ വർഷം?<h6>
+  <img src="{% static 'images/2.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios2" id="incorrect" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    1971
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios2" id="incorrect" value="0">
+  <label class="form-check-label" for="flexRadioDefault2">
+    1982
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios2" id="correct2" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    1961
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios2" id="incorrect" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    1957
+  </label>
+</div>
+      </div>
+    </div>
+<!-- question 3 -->
+  <div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+  <h6>3. രണ്ടാം ഓണം മറ്റൊരു പേരിലും അറിയപ്പെടുന്നു. ഏതു പേരിൽ?<h6>
+  <img src="{% static 'images/3.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios3" id="incorrect" value="11">
+  <label class="form-check-label" for="flexRadioDefault2">
+    പിളേളരോണ൦
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios3" id="incorrect" value="0">
+  <label class="form-check-label" for="flexRadioDefault2">
+     അത്തച്ചമയം
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios3" id="correct3" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    അമ്മായിയോണം
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios3" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    കാടിയോണ൦
+  </label>
+</div>
+      </div>
+    </div>
+<!-- question 4 -->
+  <div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+  <h6>4. നാലാം ഓണം ഏതു മഹാത്മാവിന്റെ ജന്മദിനം?<h6>
+  <img src="{% static 'images/4.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios4" id="correct4" value="11">
+  <label class="form-check-label" for="flexRadioDefault1">
+    ശ്രീനാരായണഗുരു
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios4" id="exampleRadios1" value="0" onclick="incorrect()">
+  <label class="form-check-label" for="flexRadioDefault2">
+    അയ്യങ്കാളി
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios4" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+      ബി ആർ അ൦ബേദ്കർ
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios4" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    കാടിയോണ൦
+  </label>
+</div>
+      </div>
+    </div>
+<!-- question 5 -->
+  <div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+  <h6>5. മഹാബലിപുരം എന്ന വിനോദസഞ്ചാര കേന്ദ്രം എവിടെ ?<h6>
+  <img src="{% static 'images/5.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios5" id="correct5" value="11">
+  <label class="form-check-label" for="flexRadioDefault1">
+    തമിഴ്നാട്
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios5" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2">
+    കേരള൦
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios5" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    കർണാടക
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios5" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    ആന്ധ്രാപ്രദേശ്
+  </label>
+</div>
+      </div>
+    </div>
+    
+<!-- question 6 -->
+  <div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+      <h6>6.തിരുവോണത്തിന്റെ തലേദിവസം ഏത് നാളാണ് ?<h6>
+      <img src="{% static 'images/6.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios6" id="incorrect" value="11">
+  <label class="form-check-label" for="flexRadioDefault1">
+    ചതയ൦
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios6" id="correct6" value="0">
+  <label class="form-check-label" for="flexRadioDefault2">
+    ഉത്രാട൦
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios6" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    മൂല൦
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios6" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    അവിട്ടം
+  </label>
+</div>
+      </div>
+    </div>
+<!-- question 7 -->
+  <div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+      <h6>7. ദശാവതാരങ്ങളില്‍ മഹാവിഷ്ണുവിന്റെ എത്രാമത്തെ അവതാരമായിരുന്നു വാമനൻ?<h6>
+      <img src="{% static 'images/7.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios7" id="correct7" value="11" l>
+  <label class="form-check-label" for="flexRadioDefault1">
+    4
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios7" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2">
+    5
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios7" id="incorrect" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    6
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios7" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    7
+  </label>
+</div>
+      </div>
+    </div>
+<!-- question 8 -->
+  <div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+      <h6>8.ഓണത്തിന് എത്രാമത്തെ ദിവസമാണ് പുലിക്കളി നടക്കുന്നത്?<h6>
+      <img src="{% static 'images/8.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios8" id="incorrect" value="11">
+  <label class="form-check-label" for="flexRadioDefault1">
+    1
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios8" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2">
+    2
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios8" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    3
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios8" id="correct8" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    4
+  </label>
+</div>
+      </div>
+    </div>
+<!-- question 9 -->
+  <div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+      <h6>9. എത് നാൾ ആണ് പൂക്കളം പരമാവധി വലിപ്പത്തിൽ ഇടെണ്ടത്?<h6>
+      <img src="{% static 'images/9.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios9" id="incorrect" value="11">
+  <label class="form-check-label" for="flexRadioDefault1">
+    അത്തം
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios9" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2">
+    അവിട്ടം
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios9" id="correct9" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    ഉത്രാട൦
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios9" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    ചതയ൦
+  </label>
+</div>
+      </div>
+    </div>
+<!-- question 10 -->
+  <div class="container1"></div>
+<div class="container1"></div>
+  <div class="card" style="background-color:white;">
+      <h6>10. ഏതു മലയാള മാസത്തിലാണ് ഓണം ആഘോഷിക്കുന്നത്?<h6>
+      <img src="{% static 'images/10.png' %}" alt="Avatar" height="200px" width="310px">
+      <div class="container1"></div>
+      <div><div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios10" id="incorrect" value="11">
+  <label class="form-check-label" for="flexRadioDefault1">
+    കന്നി
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios10" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault2">
+    വൃശ്ചികം
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios10" id="exampleRadios1" value="0">
+  <label class="form-check-label" for="flexRadioDefault1">
+    കർക്കിടകം
+  </label>
+</div>
+<div class="container1"></div>
+<div class="container1"></div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="Radios10" id="correct10" value="0">
+  <label class="form-check-label" for="flexRadioDefault2" id="b">
+    ചിങ്ങ൦
+  </label>
+        </div>
+      </div>
+    </div>
+    <div class="container1"></div>
+<div class="container1"></div>
+<form action = "{% url 'result' %}" method = "post">
+    {% csrf_token %} 
+    <input type="hidden" value="0" name='ABC' id='r'>
+    <center><button type="submit" class="btn btn-success" onclick="check()">Submit</button></center>
+</form>
+<div class="container1"></div>
+<div class="container1"></div>
+   
+</div>
+</body>
